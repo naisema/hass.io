@@ -1,0 +1,226 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "fa1ca9633bd5c26ceed24770fd022336",
+                "version": 1,
+                "domain": "hassio",
+                "title": "Supervisor",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "system",
+                "unique_id": "hassio",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "69a2b80a5d11a29b9ce57f74fbd1578f",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f691f29b44954708cb6667417aee39ea",
+                "version": 1,
+                "domain": "rpi_power",
+                "title": "Raspberry Pi Power Supply Checker",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "6577c25c72835441e42800b715ab4e6c",
+                "version": 1,
+                "domain": "esphome",
+                "title": "cooling_fan2",
+                "data": {
+                    "host": "192.168.1.109",
+                    "port": 6053,
+                    "password": "",
+                    "noise_psk": ""
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "cooling_fan2",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "087db823af621ec4bed34cb552ca7d8a",
+                "version": 1,
+                "domain": "xiaomi_miio",
+                "title": "Air purifier2",
+                "data": {
+                    "config_flow_device": "device",
+                    "host": "192.168.1.105",
+                    "token": "37e26442c039ca9bbf6ae319b0299e54",
+                    "model": "zhimi.airpurifier.v6",
+                    "mac": "44:23:7c:4e:75:89",
+                    "cloud_username": "suwat_sai@hotmail.com",
+                    "cloud_password": "kb2y0u@1",
+                    "cloud_country": "cn"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "44:23:7c:4e:75:89",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d06634cd865daaf59c71eb353300ef62",
+                "version": 1,
+                "domain": "esphome",
+                "title": "garden_watering_1",
+                "data": {
+                    "host": "192.168.1.117",
+                    "port": 6053,
+                    "password": "",
+                    "noise_psk": ""
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "garden_watering_1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "059251da2d7d2a501488d3c9a5813666",
+                "version": 1,
+                "domain": "xiaomi_miio",
+                "title": "Air purifier",
+                "data": {
+                    "config_flow_device": "device",
+                    "host": "192.168.1.107",
+                    "token": "bba71c417dba4ae0e7d459506925869f",
+                    "model": "zhimi.airpurifier.ma2",
+                    "mac": "78:11:dc:b0:93:95",
+                    "cloud_username": "suwat_sai@hotmail.com",
+                    "cloud_password": "kb2y0u@1",
+                    "cloud_country": "cn"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "78:11:dc:b0:93:95",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "49a2a8510fb9fb8f186accf30e355361",
+                "version": 1,
+                "domain": "xiaomi_miio",
+                "title": "Air quality detector",
+                "data": {
+                    "config_flow_device": "device",
+                    "host": "192.168.1.124",
+                    "token": "d72ec7bdc43aa8daf8055902992245bb",
+                    "model": "zhimi.airmonitor.v1",
+                    "mac": "78:11:dc:8a:dd:1a",
+                    "cloud_username": "suwat_sai@hotmail.com",
+                    "cloud_password": "kb2y0u@1",
+                    "cloud_country": "cn"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "78:11:dc:8a:dd:1a",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "8b7b3e75088d9c22a3fb78d989a28251",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {
+                    "ignore_cec": [],
+                    "known_hosts": [],
+                    "uuid": [],
+                    "user_id": "41382e16189647f5b4f790e92035ffca"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "cast",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "317290e6c48bc4fed7627a6bc3cffd02",
+                "version": 1,
+                "domain": "spotify",
+                "title": "Suwat Saisema",
+                "data": {
+                    "auth_implementation": "cloud",
+                    "token": {
+                        "access_token": "BQBIPOSqJFrGwuwp_wldWQziDzpRHstuh0V3QMfyBw780mLfsokVNqVw2eDzDbrsplSylAwSBDVLClT851pOciRpgv98yxDVJRt9PWEkhMWLleqgsqeFwzzwyfE5bBLIDyZkMLXGXf51TdRi_2-JVjhcBIwv_2JiujRSLrPqJTexLOmnkapWihmyGQhEYHtU7LYf5SC7iPhyjvSyLeI9fu46jCPzpgMGPw",
+                        "token_type": "Bearer",
+                        "expires_in": 3600,
+                        "refresh_token": "AQAAqhhvJXNwMOE-CiJLwa6KSViHTFMstKVGZL8Y0FA4e5Y6Njbsoed7nphNQoq37JMpsix37LkJDZrRMYTmzmc_wncAYExC7DGF20452DjjjH-omOBRL72TeMb_00lm42c",
+                        "scope": "playlist-read-private playlist-read-collaborative user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-recently-played user-read-playback-position user-read-private user-top-read",
+                        "service": "spotify",
+                        "expires_at": 1636814323.4149978
+                    },
+                    "id": "21dnie6hcsopcyzdgjjyjcqdy",
+                    "name": "Suwat Saisema"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "21dnie6hcsopcyzdgjjyjcqdy",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "ffc327b50fdc47b399978736b7ccf40d",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Suwat\u2019s iPhone",
+                "data": {
+                    "app_id": "io.robbie.HomeAssistant",
+                    "manufacturer": "Apple",
+                    "os_version": "14.4.1",
+                    "supports_encryption": true,
+                    "device_id": "7675A350-4E9D-4B95-804A-1046C4A4FDF8",
+                    "app_version": "2021.10 (2021.247)",
+                    "app_name": "Home Assistant",
+                    "model": "iPhone8,2",
+                    "os_name": "iOS",
+                    "device_name": "Suwat\u2019s iPhone",
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+                        "push_token": "fVXwOBP4e0TqgaSvzsGXbA:APA91bG1NGT3O7Q17ocNjCTnudqyLqB5F054LljSDXhLLS7s07vmIHa_Ha1eGCq1psd7KDLBQP7sVFPrqkYjm2TsKhVDZCH8b4KQ7mGD8fuvgUgVMKkpsq2nft_EQnSUToE_Rpbct0nR"
+                    },
+                    "webhook_id": "fd013d78820a3a09a3d2731d82b4d2fb649b9706486e7cd5e6311baf515b30a3",
+                    "secret": "2a52de2fdf4e064f329cf8c69748a1a4f3d3f8e77f8f9280b0bb5d6966c2b6b4",
+                    "user_id": "3492c068f8d843439783d9b01b7cb1bc"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-7675A350-4E9D-4B95-804A-1046C4A4FDF8",
+                "disabled_by": null
+            }
+        ]
+    }
+}
